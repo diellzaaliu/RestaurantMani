@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:title="MENU">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_appetizer"
+                    android:icon="@drawable/appetizer"
+                    android:title="Appetizer" />
+                <item
+                    android:id="@+id/nav_soup"
+                    android:icon="@drawable/soup"
+                    android:title="Soup" />
+                <item
+                    android:id="@+id/nav_salads"
+                    android:icon="@drawable/salads"
+                    android:title="Salads" />
+                <item
+                    android:id="@+id/nav_pizza"
+                    android:icon="@drawable/appetizer"
+                    android:title="Pizza" />
+                <item
+                    android:id="@+id/nav_fastfood"
+                    android:icon="@drawable/fastfood"
+                    android:title="Fast Food" />
+                <item
+                    android:id="@+id/nav_entrees"
+                    android:icon="@drawable/entrees"
+                    android:title="Entrees" />
+                <item
+                    android:id="@+id/nav_pasta"
+                    android:icon="@drawable/pasta"
+                    android:title="Pasta" />
+                <item
+                    android:id="@+id/nav_desserts"
+                    android:icon="@drawable/desserts"
+                    android:title="Desserts" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="ABOUT US">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_location"
+                    android:icon="@drawable/location"
+                    android:title="Location" />
+                <item
+                    android:id="@+id/nav_qaRate"
+                    android:icon="@drawable/qanda"
+                    android:title="QandA/Rate" />
+                <item
+                    android:id="@+id/nav_staff"
+                    android:icon="@drawable/staff"
+                    android:title="@string/staff_managment" />
+                </group>
+            </menu>
+
+        </item>
+
+    <item android:title="PROFILE">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/login"
+                android:title="Login" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_icon"
+                android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

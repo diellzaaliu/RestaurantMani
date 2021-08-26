@@ -1,16 +1,14 @@
-package com.example.myapplication;
+package com.example.RestaurantMani;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Sign_Up_Activity extends AppCompatActivity {
+public class SaladsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
-
-        getSupportActionBar().setTitle("Sign Up");
+        setContentView(R.layout.activity_salads);
     }
 }

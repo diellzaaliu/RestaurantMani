@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RateFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='John Robinson: "I love the food and the staff is amazing. They are so friendly. 9/10"'
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Emma Doe: "The staff was so kind. The wait was not long. 8/10"'
+        android:textColor="#000000"
+        android:layout_marginTop="60dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='David James: "I was so satisfied with the food. The view was incredible. It has a lot of nature 9/10"'
+        android:textColor="#000000"
+        android:layout_marginTop="110dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
