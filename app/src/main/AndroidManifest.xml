@@ -3,7 +3,7 @@
     package="com.example.RestaurantMani">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -12,22 +12,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".StaffActivity"
+            android:label="@string/title_activity_staff"
+            android:theme="@style/Theme.MyApplication.NoActionBar"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBqaxaWIJhfgI8gZkeJC6KX8ZUkR7bsXWA"/>
+            android:value="AIzaSyBqaxaWIJhfgI8gZkeJC6KX8ZUkR7bsXWA" />
 
-
-        <activity android:name="com.example.RestaurantMani.LocationActivity"></activity>
-        <activity android:name="com.example.RestaurantMani.QandA_Rate_Activity" />
-        <activity android:name="com.example.RestaurantMani.PizzaActivity" />
-        <activity android:name="com.example.RestaurantMani.SaladsActivity" />
-        <activity android:name="com.example.RestaurantMani.SoupActivity" />
-        <activity android:name="com.example.RestaurantMani.AppetizerActivity" />
-        <activity android:name="com.example.RestaurantMani.FoodActivity" />
-        <activity android:name="com.example.RestaurantMani.Sign_In_Activity" />
-        <activity android:name="com.example.RestaurantMani.Sign_Up_Activity" />
-        <activity android:name="com.example.RestaurantMani.MainActivity">
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".QandA_Rate_Activity" />
+        <activity android:name=".PizzaActivity" />
+        <activity android:name=".SaladsActivity" />
+        <activity android:name=".SoupActivity" />
+        <activity android:name=".AppetizerActivity" />
+        <activity android:name=".FoodActivity" />
+        <activity android:name=".Sign_In_Activity" />
+        <activity android:name=".Sign_Up_Activity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

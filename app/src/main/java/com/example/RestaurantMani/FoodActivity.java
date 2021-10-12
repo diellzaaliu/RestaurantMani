@@ -90,6 +90,10 @@ public class FoodActivity extends AppCompatActivity implements NavigationView.On
                 Intent intent5 = new Intent(FoodActivity.this,LocationActivity.class);
                 startActivity(intent5);
                 break;
+            case R.id.nav_staff:
+                Intent intent6 = new Intent(FoodActivity.this,StaffActivity.class);
+                startActivity(intent6);
+                break;
 
         }
 
